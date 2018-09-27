@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using Gtk;
 
 namespace design_namespace
 {
 	public class custom-widget-name + "Editor" : Box
-    {
+	{
 		// .ctor must look like this, parameter is the parent GtkBox
 		public custom-widget-name + "Editor"(IntPtr rawParent)
 			: base(Orientation.Vertical, 0)
@@ -23,5 +23,5 @@ namespace design_namespace
 				Console.WriteLine(ex.Message);
 			}
 		}
-    }
+	}
 }
