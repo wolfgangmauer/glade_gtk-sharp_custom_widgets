@@ -21,7 +21,7 @@ namespace runtime_namespace
 		}
 
 		public ExtTextBox() 
-			: base(IntPtr.Zero)
+			: this(IntPtr.Zero)
         	{	
 		}
 
