@@ -11,4 +11,4 @@ Make gtk-sharp cusom-widgets work with glade-designer
 
 ### 4.: glade catalog xml
 
-## seek example
+## see example
