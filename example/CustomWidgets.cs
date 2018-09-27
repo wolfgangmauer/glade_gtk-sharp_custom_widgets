@@ -41,7 +41,7 @@ namespace runtime_namespace
 		}
 
 		public ExtComboBox() 
-			: base(IntPtr.Zero)
+			: this(IntPtr.Zero)
         	{	
 		}
 
