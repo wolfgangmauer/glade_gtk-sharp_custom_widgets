@@ -1,0 +1,24 @@
+<glade-catalog name="gtk-sharp_custom_widgets" library="glade_gtk-sharp_custom_widgets" depends="gtk+">
+    <init-function>glade_gtksharp_custom_widgets_post_create</init-function>
+    <glade-widget-classes>
+    <glade-widget-class name="__gtksharp_X_runtime-namespace_ExtTextBox" icon-name="widget-gtk-entry" generic-name="ExtTextBox" title="Extended TextBox">
+      <create-editable-function>glade_gtksharp_custom_widgets_create_editable</create-editable-function>
+      <properties>
+        <property id="visible_window" visible="False"/>
+        <property id="above_child" visible="False"/>
+        <property id="property-used with custom-editor" custom-layout="True"/>
+      </properties>
+    </glade-widget-class>
+    <glade-widget-class name="__gtksharp_X_runtime-namespace_ExtComboBox" icon-name="widget-gtk-combobox" generic-name="ExtComboBox" title="Extended ComboBox">
+      <create-editable-function>glade_gtksharp_custom_widgets_create_editable</create-editable-function>
+      <properties>
+        <property id="visible_window" visible="False"/>
+        <property id="above_child" visible="False"/>
+      </properties>
+    </glade-widget-class>
+  </glade-widget-classes>
+  <glade-widget-group name="ExtWidgets" title="Extended Widgets">
+    <glade-widget-class-ref name="__gtksharp_X_runtime-namespace_ExtTextBox"/>
+    <glade-widget-class-ref name="__gtksharp_X_runtime-namespace_ExtComboBox" />
+  </glade-widget-group>
+</glade-catalog>
