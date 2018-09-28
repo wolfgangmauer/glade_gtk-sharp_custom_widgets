@@ -1,6 +1,8 @@
 ﻿using System;
 using Gtk;
 
+// at runtime you must call the "Register" method as soon as posibble,
+// so the continuous counter "__gtksharp_X_..." will be the same as on design-time
 namespace runtime_namespace
 {
 	public static class GTypeRegister // .config -> gtyperegister_static_class=
